@@ -1,0 +1,71 @@
+body {
+  text-align: right;
+  background-color: #E9967A;
+  background-image: url('http://livewallpaper.info/wp-content/uploads/2016/08/mars-wallpaper8.jpg');
+  background-size: cover;
+  color: black;
+}
+
+h1 {
+  background-color: #B22222;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  opacity: .75;
+  margin-bottom: 15px;
+}
+
+h1:hover {
+  font-size: 30px;
+  font-stretch: ultra-expanded;
+  transition: 1s;
+  opacity: 1;
+}
+
+#form-div {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  transition-duration: 0.7s;
+  width: 30%;
+  padding: 5px;
+  background-color: orange;
+  font-size: 14px;
+  cursor: grab;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+#explorer{
+  width: 421px;
+  height: 35px;
+}
+
+.completed {
+  color: white;
+  font-size: 20px;
+}
+
+.finalSubmit {
+  color: white;
+  font-size: 40px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  list-style-type: none;
+}
