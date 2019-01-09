@@ -1,4 +1,4 @@
-let countryList = [
+export let countryList = [
   {"value":"AF", "label":"Afghanistan"},
   {"value":"AX", "label":"Åland Islands"},
   {"value":"AL", "label":"Albania"},
@@ -243,5 +243,3 @@ let countryList = [
   {"value":"ZM", "label":"Zambia"},
   {"value":"ZW", "label":"Zimbabwe"}
 ]
-
-export default countryList;
